@@ -10,7 +10,7 @@ import LogoSection from "../components/logo-section";
 import Hero from "../components/hero/hero";
 import Brands from "../components/brands"
 import Backstyles from "../components/bg-style"
-import AboutUsExame from "../components/boutUsExame" 
+import AboutUsExame from "../components/aboutUsExame" 
 
 const Homepage = () => {
   return (
