@@ -1,18 +1,16 @@
-import {
-  Header,
-  AccreditationCard,
-  AboutUsContainer,
-  AboutUsFrame,
-  AboutUsWrapper,
-  Container,
-  DoorContainer,
-  Container1,
-  LogoSection,
-  Hero,
-  Brands,
-  Backstyles,
-  AboutUsExame,
-} from "./modules"; // Adjust the path according to where `modules.js` is located
+import Header from "../components/header";
+import AccreditationCard from "../components/accreditation-card";
+import AboutUsContainer from "../components/about-us-container";
+import AboutUsFrame from "../components/about-us-frame";
+import AboutUsWrapper from "../components/about-us-wrapper";
+import Container from "../components/container";
+import DoorContainer from "../components/door-container";
+import Container1 from "../components/container1";
+import LogoSection from "../components/logo-section";
+import Hero from "../components/hero/hero";
+import Brands from "../components/brands"
+import Backstyles from "../components/bg-style"
+import AboutUsExame from "../components/boutUsExame" 
 
 const Homepage = () => {
   return (
