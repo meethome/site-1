@@ -62,7 +62,6 @@ const Homepage = () => {
           />
         </section>
       </div>
-      {/* <AboutUsContainer /> */}
       <br />
 
       <section className="flex flex-col gap-80  items-center">

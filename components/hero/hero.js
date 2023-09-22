@@ -1,5 +1,4 @@
 import React from 'react'
-import CContainer from './c-container'
 import styles from './Hero.module.css'
 
 const Hero = ({ 
@@ -11,7 +10,6 @@ const Hero = ({
 
   return (
     <div>
-      <CContainer  />
     <div className="flex flex-col items-center gap-10 max-w-[100%] mx-auto">
 
       {/* Heading & Description */}
