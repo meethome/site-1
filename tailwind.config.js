@@ -1,0 +1,70 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        white: "#fff",
+        "body-text-color": "#8f8f8f",
+        "blue-guideline": "#709dd8",
+        whitesmoke: {
+          "100": "#f5f5f5",
+          "200": "#eaeaea",
+        },
+        "body-text": "#7d7d7d",
+        "heading-text": "#101010",
+        "blue-guideline1": "#0766e3",
+        darkgray: "#aaa",
+        gainsboro: "#e2e2e2",
+        "heading-text1": "#161616",
+        "heading-color": "#04060d",
+        b7: "#0449b7",
+        "body-text1": "#888",
+        guideline: "#5685ff",
+        "body-text-color1": "#797979",
+        steelblue: "#0088bb",
+        "heading-text-color": "#000",
+        goldenrod: "#fdbb3b",
+      },
+      spacing: {},
+      fontFamily: {
+        inter: "Inter",
+        poppins: "Poppins",
+        inherit: "inherit",
+      },
+      borderRadius: {
+        "lgi-6": "19.6px",
+        "3xs-8": "9.8px",
+      },
+    },
+    fontSize: {
+      "base-7": "15.7px",
+      "sm-7": "13.7px",
+      "lgi-6": "19.6px",
+      "18xl-2": "37.2px",
+      "mini-7": "14.7px",
+      "15xl-3": "34.3px",
+      "mid-6": "17.6px",
+      "lgi-5": "19.5px",
+      "20xl-2": "39.2px",
+      "xl-4": "20.4px",
+      "10xl-4": "29.4px",
+      "17xl-4": "36.4px",
+      "2xs-8": "10.8px",
+      inherit: "inherit",
+    },screens: {
+      'xs': '100px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};

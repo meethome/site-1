@@ -1,0 +1,77 @@
+/* Base styles */
+.heroHeading, .heroDescription, .heroButton {
+    transition: font-size 0.3s ease;  /* Smooth transition for font-size changes */
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .heroHeading {
+        font-size: 70%;
+    }
+    .heroDescription {
+        font-size: 12px;
+    }
+    .heroButton {
+        font-size: 10px;
+    }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .heroHeading {
+        font-size: 80%;
+    }
+    .heroDescription {
+        font-size: 14px;
+    }
+    .heroButton {
+        font-size: 11px;
+    }
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .heroHeading {
+        font-size: 90%;
+    }
+    .heroDescription {
+        font-size: 15px;
+    }
+    .heroButton {
+        font-size: 12px;
+    }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .heroHeading {
+        font-size: 95%;
+    }
+    .heroDescription {
+        font-size: 16px;
+    }
+    .heroButton {
+        font-size: 13px;
+    }
+}
+
+/* Extra large devices (extra large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .heroHeading {
+        font-size: 100%;
+    }
+    .heroDescription {
+        font-size: 17.64px;
+    }
+    .heroButton {
+        font-size: 13.72px;
+    }
+}
+
+@media (max-width: 1024px) {
+  .heroHeading,
+  .heroDescription {
+    max-width: 100%; 
+  }
+}
+

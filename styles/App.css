@@ -1,0 +1,11 @@
+@media (min-width: 1020px) and (max-width: 1024px) {
+    .custom-section {
+      margin-top: 20px;
+      padding: 10px;
+    }
+    .custom-div {
+      margin-top: 20px;
+      padding: 10px;
+    }
+  }
+  
