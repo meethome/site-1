@@ -3,7 +3,7 @@ import React from "react";
 const Logosection2 = (props) => {
   return (
     <>
-      <div className="flex flex-wrap gap-4 text-left head ">
+      <div className="flex flex-wrap justify-center gap-4 text-left head">
         <div className="logo basis-[15%]">
           <b className="logo text-[37.23px] text-blue-guideline1 ">
             {props.logoText}
@@ -53,12 +53,11 @@ const Logosection2 = (props) => {
               </div>
             </div>
             <div className="flex justify-center my-2">
-            <img
-              className="max-w-full max-h-full mt-2 overflow-hidden margin-auto"
-              alt=""
-              src={props.groupSrc}
-            />
-              
+              <img
+                className="max-w-full max-h-full mt-2 overflow-hidden margin-auto"
+                alt=""
+                src={props.groupSrc}
+              />
             </div>
             <div className="list flex flex-row items-start justify-start gap-[0.4em] flex-wrap text-[15.68px] text-body-text mt-2">
               <div className="inline-block w-[56.84px] h-[19.6px] shrink-0">
