@@ -3,13 +3,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   @apply leading-[normal] m-0;
 }
+
 *,
 ::before,
 ::after {
   border-width: 0;
 }
 
+/* @media (max-width: 320px) {
+  .logo {
+    left: 1%;
+  }
 
+  .pages {
+    left: -69%;
+    top: 34%;
+
+  }
+
+  .contact {
+    left: -81%;
+    top: 92%;
+  }
+
+  .dmo {
+    left: -50%;
+  }
+} */
+
+@media (max-width:320px) {
+  .head {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0em;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .logo{
+    width: 300px;
+
+  }
+  .pages{
+    width: 300px;
+
+  }
+  .contact{
+    width: 300px;
+
+  }
+  .dmo{
+    width: 300px;
+  }
+}
